@@ -130,7 +130,7 @@ p{
 }
 /* Extra part */
 .extra-img img{
-    width: 80%;
+    width: 100%;
 }
 .extra{
     padding-left: 30%;
@@ -139,6 +139,16 @@ p{
     grid-template-columns: repeat(2,1fr);
    
 }
+/* Extra part video */
+.video{
+    padding-left: 15%;
+}
+.video-blog{
+    font-size: 23px;
+}
+/* Last Part */
+
+
 
 
 
