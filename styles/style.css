@@ -147,9 +147,38 @@ p{
     font-size: 23px;
 }
 /* Last Part */
-
-
-
+.logo img{
+    width: 470px;
+    height: 90px;
+    margin-top: 8%;
+    
+}
+.fab{
+    font-size: 30px;
+    padding: 10px;
+    color: grey;
+    
+}
+.fab-icon{
+    margin-left: 10%;
+    
+}
+.copy{
+    font-size: 20px;
+}
+.copyright{
+    margin-left: 8%;
+}
+.last-part{
+    margin-left: 20%;
+}
+/*------------------------ 
+      Media Queries
+-------------------------- */
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    
+}
 
 
 
