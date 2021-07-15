@@ -3,7 +3,7 @@
 /*common styles or utilities*/
 body{
 font-family: 'Poppins', sans-serif;
-background-color: black;
+background-color: 
 }
 main{
     display: flex;
@@ -12,7 +12,7 @@ main{
 }
 .background{
     background-color: whitesmoke;
-    width: 1200px;
+    width: 1260px;
 }
 p{
     color: grey;
@@ -62,7 +62,7 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
-    width: 1200px;
+    width: 1260px;
     height: 677px; 
 }
 .image{
@@ -177,7 +177,36 @@ p{
 -------------------------- */
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
+    .top-banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        
+        
+    }
+    .image{
+        margin-top: 5%;
+    }
+    .background{
+        width: 100%;
+        
+    }
+    .blog-title{
+        font-size: 37px;
+        
+    }
+    .button-blog{
+        margin-top: 22%;
+        margin-left: 10%;
+    }
+    }
+
     
+   .blogs, .all-highlights{
+       display: none;
+   } 
+   
+     
 }
 
 
